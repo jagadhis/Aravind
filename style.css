@@ -48,3 +48,9 @@
     border-top: 0 none;
   }
 }
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
