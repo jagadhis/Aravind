@@ -1,108 +1,50 @@
-* {
-  box-sizing: border-box;
+#login-dp {
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
 }
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #e8ffff;
+#login-dp .help-block {
+  font-size: 12px;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  opacity: 0.5;
+#login-dp .bottom {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #ddd;
+  clear: both;
+  padding: 14px;
 }
-.logo {
-  color: black;
-  font-size: 20px;
-  margin-left: 30px;
+#login-dp .social-buttons {
+  margin: 12px 0;
 }
-.nav-link ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
+#login-dp .social-buttons a {
+  width: 49%;
 }
-.nav-link li {
-  list-style: none;
+#login-dp .form-group {
+  margin-bottom: 10px;
 }
-.nav-link li a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 1rem;
-  letter-spacing: 2px;
-  margin: 0 20px;
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998;
 }
-.nav-link li:hover {
-  background-color: #e8ffff;
+.btn-fb:hover {
+  color: #fff;
+  background-color: #496ebc;
 }
-.nav-link a:hover {
-  color: black;
+.btn-tw {
+  color: #fff;
+  background-color: #55acee;
 }
-.card {
-  position: relative;
-  top: 50px;
-  display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 210px 210px 80px;
-  grid-area: "image" "text";
-  text-align: center;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-  width: 20%;
+.btn-tw:hover {
+  color: #fff;
+  background-color: #59b5fa;
 }
-.card-image1 {
-  background: url("title1.jpg");
-  background-size: cover;
-  width: 308px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.card-image2 {
-  background: url("title2.jpg");
-  background-size: cover;
-  width: 308px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.card-image3 {
-  background: url("title4.jpg");
-  background-size: cover;
-  width: 308px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.card-image4 {
-  background: url("title5.jpg");
-  background-size: cover;
-  width: 308px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-.card-text {
-  margin: 20px;
-}
-.card-text .date {
-  color: #f76a8c;
-}
-.card-text p {
-  opacity: 0.4;
-  font-size: 15px;
-  font-style: italic;
-  font-family: cursive;
-}
-.card {
-  margin: 15px;
-  transition: 0.5s ease;
-  cursor: pointer;
-}
-.card:hover {
-  transform: scale(1.15);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-}
-.container {
-  display: flex;
-  justify-content: space-between;
+@media (max-width: 768px) {
+  #login-dp {
+    background-color: inherit;
+    color: #fff;
+  }
+  #login-dp .bottom {
+    background-color: inherit;
+    border-top: 0 none;
+  }
 }
