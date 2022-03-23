@@ -48,7 +48,9 @@
     border-top: 0 none;
   }
 }
-
+.navbar {
+  background-color: #ffdb58;
+}
 .button {
   display: flex;
   justify-content: space-between;
